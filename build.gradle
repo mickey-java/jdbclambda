@@ -1,0 +1,15 @@
+apply plugin: 'java-library'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	api 'org.projectlombok:lombok:1.16.20'
+
+	implementation 'org.jooq:jooq:3.10.7'
+	implementation 'mysql:mysql-connector-java:8.0.11'
+
+    testImplementation 'junit:junit:4.12'
+}
+
